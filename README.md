@@ -54,6 +54,14 @@ https://success.figure-eight.com/hc/en-us/articles/201855939-How-to-Calculate-a-
 
 提供的測試資料放置於兩個不同的資料夾：leaderboard 留出資料和 leaderboard 測試資料。由於競賽要求提交這兩種資料集的預測，所以我們將兩者結合。我們共獲得 6534 副圖像。
 
-![image](
+![image](https://github.com/jacky5649/1221/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_21-12-2024_125333_www.sohu.com.jpeg)
+
+結合 leaderboard 留出資料和 leaderboard 測試資料。
+
+我們將使用 fast.ai 的 DataBlock API 來構成數據，這是將資料集呈現給模型的簡單方法。
+
+![imagr](
+
+
 
 
