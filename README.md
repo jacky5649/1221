@@ -89,4 +89,6 @@ https://success.figure-eight.com/hc/en-us/articles/201855939-How-to-Calculate-a-
 
 現在，開始訓練我們的模型。我們將使用卷積神經網路作為主體，並利用 ResNet 模型的預訓練權重。 ResNet 模型被訓練用來對各種影像進行分類，不用擔心它的理論和實作細節。現在，我們建立的模型以衛星圖像作為輸入，並輸出這兩個類別的預測機率。
 
+卷積神經網絡
+
 
