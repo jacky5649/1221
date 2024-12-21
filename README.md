@@ -145,7 +145,10 @@ learn.save('resnet50-stgl')
 
 # 使用混淆矩陣查看結果
 
+![image](https://github.com/jacky5649/1221/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_21-12-2024_134341_www.sohu.com.jpeg)
 
+繪製混淆矩陣
 
+混淆矩陣是一種圖形化的方式，可以查看模型準確或不準確的預測影像數量。
 
 
