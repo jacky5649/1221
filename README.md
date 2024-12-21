@@ -143,6 +143,8 @@ https://success.figure-eight.com/hc/en-us/articles/201855939-How-to-Calculate-a-
 learn.save('resnet50-stgl')
 ```
 
+# 使用混淆矩陣查看結果
+
 
 
 
