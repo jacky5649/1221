@@ -73,5 +73,10 @@ https://success.figure-eight.com/hc/en-us/articles/201855939-How-to-Calculate-a-
 最後，還需要在資料上執行轉換，透過設定 flip_vert = True 將翻轉影像，這能幫助模型辨識不同朝向的影像。此外，還需要使用 imagenet_stats 來歸一化映像。
 
 
+# 預覽影像
+
+如下是有或沒有油棕種植園的衛星圖：
+
+![image](
 
 
