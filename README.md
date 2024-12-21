@@ -8,3 +8,7 @@
 （引用）本文展示的所有程式碼可在 Google Colaboratory 中找到：這是一個 Jupyter 筆記本環境，不需要進行任何設定就可以使用，並且完全在雲端運行。你可以透過 Colaboratory 編寫和執行程式碼，保存和分享分析，存取大量的運算資源，所有這些都是免費的。
 
 程式碼請參閱：https://colab.research.google.com/drive/1PVaRPY1XZuPLtm01V2XxIWqhLrz3_rgX。
+
+# 導入 fast.ai 和我們將要使用的其他函式庫
+
+![image](
