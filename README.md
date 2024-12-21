@@ -117,7 +117,15 @@ https://success.figure-eight.com/hc/en-us/articles/201855939-How-to-Calculate-a-
 
 最佳模型是在第四個 epoch 時獲得的。
 
+![image](https://github.com/jacky5649/1221/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_21-12-2024_133531_www.sohu.com.jpeg)
 
+訓練階段模型的輸出；訓練和驗證損失的變化過程。
+
+當你進行訓練和驗證資料集時，fast.ai 只在內部挑選並保存你的最佳模型。
+
+# 評估我們的模型
+
+競賽提交的資料是根據預測機率和觀測目標 has_oilpalm 之間的 ROC 曲線來評估的。預設情況下，Fast.ai 不會附帶這個指標，所以我們將使用 scikit-learn 函式庫。
 
 
 
