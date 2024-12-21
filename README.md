@@ -11,4 +11,4 @@
 
 # 導入 fast.ai 和我們將要使用的其他函式庫
 
-![image](
+![image](https://github.com/jacky5649/1221/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_21-12-2024_123317_www.sohu.com.jpeg)
