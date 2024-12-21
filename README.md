@@ -319,5 +319,14 @@ learn.save('resnet50-stg4')
 
 現在可以看到我們的模型對未見過的數據做出了多麼好的預測。
 
+![image](https://github.com/jacky5649/1221/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_21-12-2024_145453_www.sohu.com.jpeg)
 
+準備一個 CSV 提交文件
 
+# 將文件提交給 WiDS Datathon
+
+你仍然可以參加 WiDS 競賽並晚一點提交。進入參賽頁面，點選“Join Competition”，了解比賽規則。現在你可以提交作品，看看自己會排到第幾。
+
+根據模型預測對提交的作品進行評分
+
+原文連結：https://towardsdatascience.com/how-a-team-of-deep-learning-newbies-came-3rd-place-in-a-kaggle-contest-644adcc143c8
