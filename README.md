@@ -97,4 +97,12 @@ https://success.figure-eight.com/hc/en-us/articles/201855939-How-to-Calculate-a-
 
 接下來，我們用 lr_find() 函數找到了理想的學習率，並使用 recorder.plot() 進行了視覺化。
 
+![image](https://github.com/jacky5649/1221/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_21-12-2024_132851_www.sohu.com.jpeg)
+
+搜尋最佳模型學習率。
+
+我們將選擇斜率最大的學習率，在這裡我們選擇的是 1e-2。
+
+
+
 
