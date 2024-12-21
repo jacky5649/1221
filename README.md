@@ -289,3 +289,9 @@ max_warp：如果超參不為 None，那麼以 p_affine 為機率在-max_warp �
 
 以 1e-4 的學習率對模型訓練 5 個週期
 
+![image](https://github.com/jacky5649/1221/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_21-12-2024_144656_www.sohu.com.jpeg)
+
+訓練和驗證損失
+
+觀察訓練指標並與先前的指標比較。我們的模型有了小小的提升（損失從 0.169 降到了 0.168）。
+
