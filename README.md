@@ -162,3 +162,11 @@ learn.save('resnet50-stgl')
 ![image](https://github.com/jacky5649/1221/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_21-12-2024_134813_www.sohu.com.jpeg)
 
 搜尋理想的學習率。
+
+![image](https://github.com/jacky5649/1221/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_21-12-2024_134948_www.sohu.com.jpeg)
+
+我們在學習率 1e-6 和 1e-4 之間選擇了一個學習率。
+
+在 7 個 epoch 內，使用 1e-6 和 1e-4 之間的最大學習率來擬合模型。
+
+
