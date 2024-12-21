@@ -178,3 +178,13 @@ learn.save('resnet50-stgl')
 訓練和驗證損失。
 
 以圖形方式觀察訓練指標，以監控每個訓練週期後模型的表現。
+
+![image](https://github.com/jacky5649/1221/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_21-12-2024_135653_www.sohu.com.jpeg)
+
+訓練階段模型的輸出；訓練和驗證損失的變化過程。
+
+保存模型的第二個訓練階段：
+
+```
+learn.save('resnet50-stg2')
+```
