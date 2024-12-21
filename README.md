@@ -60,7 +60,17 @@ https://success.figure-eight.com/hc/en-us/articles/201855939-How-to-Calculate-a-
 
 我們將使用 fast.ai 的 DataBlock API 來構成數據，這是將資料集呈現給模型的簡單方法。
 
-![imagr](
+![imagr](https://github.com/jacky5649/1221/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_21-12-2024_125522_www.sohu.com.jpeg)
+
+建立一個 ImageList 來保留數據
+
+我們將使用 ImageList 來保存訓練數據，並使用 from_df 方法讀取資料。這樣做的原因是，我們將訓練集資訊儲存在了名為 df 的 DataFrame 中。
+
+接下來需要隨機分割訓練集，並保留 20% 作為驗證集，以便在訓練中監督模型表現。我們選擇了一個 seed，確保再一次訓練時能得到相同的結果，透過相同的 seed，我們就能知道哪些改進是好的，哪些是壞的。
+
+此外，我們同樣還要把訓練集的標籤位址提供給 ImageList，並將資料與標籤合併。
+
+最後，還需要在資料上執行轉換，透過設定 flip_vert = True 將翻轉影像，這能幫助模型辨識不同朝向的影像。此外，還需要使用 imagenet_stats 來歸一化映像。
 
 
 
