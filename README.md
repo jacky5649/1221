@@ -207,7 +207,7 @@ learn.save('resnet50-stg2')
 
 與我們繪製的上一個混淆矩陣相比，你會發現模型的預測效果更好了。
 
-![image](https://github.com/jacky5649/1221/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_21-12-2024_14108_www.sohu.com.jpeg)
+![image](https://github.com/jacky5649/1221/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_21-12-2024_14829_www.sohu.com.jpeg)
 第二個訓練階段的混淆指標
 
 之前有 7 張不含油棕種植園的圖像被錯誤分類，現在降到了 3 張，這就是進步。
@@ -218,7 +218,7 @@ learn.save('resnet50-stg2')
 
 我們將在數據上執行更多的影像轉換，這應該是能提升模型效果的。影像轉換的具體描述可以在 fast.ai 文件中找到：
 
-![image](https://github.com/jacky5649/1221/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_21-12-2024_14829_www.sohu.com.jpeg)
+![image](https://github.com/jacky5649/1221/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_21-12-2024_14108_www.sohu.com.jpeg)
 
 應用不同的轉換以提升模型效果
 
