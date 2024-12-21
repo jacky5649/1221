@@ -230,3 +230,7 @@ max_zoom：如果超參不小於 1，那麼以 p_affine 為機率隨機放大 1 
 max_warp：如果超參不為 None，那麼以 p_affine 為機率在-max_warp 和 max_warp 之間隨機對稱變換。
 
 我們再一次搜尋最優學習率：
+
+![image](https://github.com/jacky5649/1221/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_21-12-2024_141143_www.sohu.com.jpeg)
+
+搜尋一個合理的學習率
