@@ -218,3 +218,15 @@ learn.save('resnet50-stg2')
 # 影像轉換
 
 我們將在數據上執行更多的影像轉換，這應該是能提升模型效果的。影像轉換的具體描述可以在 fast.ai 文件中找到：
+
+![image](https://github.com/jacky5649/1221/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_21-12-2024_14829_www.sohu.com.jpeg)
+
+應用不同的轉換以提升模型效果
+
+max_lighting：如果超參不為 None，則以 p_lighting 為機率隨機進行亮度、對比的調整，且最大亮度不超過 max_lighting。
+
+max_zoom：如果超參不小於 1，那麼以 p_affine 為機率隨機放大 1 到 max_zoom 倍。
+
+max_warp：如果超參不為 None，那麼以 p_affine 為機率在-max_warp 和 max_warp 之間隨機對稱變換。
+
+我們再一次搜尋最優學習率：
