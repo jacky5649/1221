@@ -233,3 +233,9 @@ max_warp：如果超參不為 None，那麼以 p_affine 為機率在-max_warp �
 ![image](https://github.com/jacky5649/1221/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_21-12-2024_141143_www.sohu.com.jpeg)
 
 搜尋一個合理的學習率
+
+![image](https://github.com/jacky5649/1221/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_21-12-2024_14223_www.sohu.com.jpeg)
+
+我們選擇的學習率是 1e-6
+
+將模型訓練 5 個週期。
